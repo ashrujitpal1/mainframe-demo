@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mainframe-demo"
+version = "0.1.0"
+description = "Mainframe Demo project using Langchain, LangGraph and CrewAI which will convert a mainframe business rule into Java UserStory and then create the codebases"
+authors = ["ashrujitpal <ashrujitpal1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+langchain = "^0.3.7"
+langgraph = "^0.2.50"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
